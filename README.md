@@ -17,6 +17,7 @@ This Python-based project is a real-time data application that fetches current w
 This program can be particularly useful in areas like education, environmental research, data journalism, app prototyping, and beginner-level data science projects. It demonstrates how to integrate APIs with Python, handle JSON data, and represent numeric information visually for better understanding. It is designed to be beginner-friendly yet practical enough to demonstrate real-world programming skills in data science, analytics, and full-stack development.
 
 Tools & Technologies Used :-
+
 Programming Language: Python 3.x
 
 API Provider: OpenWeatherMap (https://openweathermap.org/api)
@@ -36,6 +37,7 @@ Environment Variables Management: python-dotenv – to securely load API keys fr
 Platform: Developed and tested in Visual Studio Code on Windows 11 with Python 3.11 and Git integration
 
 Key Features
+
 Connects to a live weather API to fetch data such as temperature, humidity, and pressure
 
 Automatically structures and stores the data in a Pandas DataFrame
@@ -47,22 +49,29 @@ Uses a .env file to secure API credentials and keep your OpenWeatherMap key safe
 Modular, well-commented code that makes it easy to read, understand, and extend
 
 Real-World Use Cases
+
 Education & Learning:
+
 Ideal for students learning Python, API usage, and data visualization. It provides practical exposure to combining external data with code to create meaningful outputs.
 
 Weather Dashboards:
+
 Can be the starting point for building full-fledged weather dashboards or widgets for websites or mobile apps.
 
 Data Science Prototypes:
+
 Suitable as a beginner-friendly template to demonstrate API handling and visual output generation in early-stage data science portfolios.
 
 Reports & Presentations:
+
 This tool can be used to pull and visualize real-time weather data for presentations, research papers, or reports that require environmental data.
 
 Smart Home Integration (future extension):
+
 With a little modification, this system could integrate into smart home interfaces that adapt lighting, HVAC, or alert systems based on external weather data.
 
 Security Best Practices
+
 This project uses a .env file to store the API key securely. The real .env file is excluded from the GitHub repo using .gitignore, and a sample .env.example file is provided so others can set up the project without exposing sensitive credentials.
 
 Setup Instructions
