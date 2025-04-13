@@ -98,3 +98,9 @@ Run the script:
 python task1_weather_api.py
 
 This chart updates based on the selected city in the code.
+
+#OUTPUT
+
+![Image](https://github.com/user-attachments/assets/0b5be62a-08a3-4ae7-b625-b1d583c77d24)
+
+
